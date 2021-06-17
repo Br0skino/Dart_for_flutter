@@ -51,3 +51,45 @@ void main(){
  });
   
 }
+//Esercizio 5
+void main(){
+  String preferenza='crema';
+  if(preferenza=='crema'){
+    print('Nocciola');   
+  }else{
+    print('FRagola');
+  }
+}
+//Esercizio 6
+void main(){
+  String gusto;
+  String preferenza='Crema';
+  gusto=(preferenza=='Crema') ? 'Nocciola' : 'Fragola';
+  print(gusto);
+}
+
+
+
+class Cazzi{
+  int lunghezza;
+  int larghezza;
+}
+void main(){
+  Cazzi cazzo=Cazzi();
+  cazzo.larghezza=20;
+  Cazzi cazzo2=Cazzi();
+  cazzo2.larghezza=22;
+  print(cazzo2.larghezza);
+}
+
+class Cazzi{
+  int lunghezza;
+  int larghezza;
+  Cazzi(thi.lunghezza,this.larghezza);//Metodo Costruttore
+}
+void main(){
+  Cazzi cazzo=Cazzi(20,22);
+  Cazzi cazzo2=Cazzi(20,22);
+  cazzo2.larghezza=22;
+  print(cazzo2.larghezza);
+}
