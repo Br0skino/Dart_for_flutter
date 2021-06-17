@@ -38,3 +38,9 @@ void main(){
     numero--;
   }
 }
+//Esericizio 4 Con For
+void main(){
+  for(int numero=10;numero>=1;numero--){
+    print(numero.toString());
+  }
+}
