@@ -29,6 +29,7 @@ double calcolaArea(double base_della_funzione,double altezza_della_funzione,bool
   }
   return area;
 }
+
 //Esercizio 3 Conto Alla Rovescia
 void main(){
   int numero=10;
