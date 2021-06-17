@@ -44,3 +44,10 @@ void main(){
     print(numero.toString());
   }
 }
+//Esercizio 5 Liste COn ForEach
+void main(){
+  List<String> persone=['Marco','Franco','Marcolino'];
+  persone.forEach((persona){print(persona);
+ });
+  
+}
